@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        No dot in the style name = AAPT never looks for a parent named "Theme".
+        No parent attribute = nothing to resolve from the android framework.
+        Compose renders its own UI; this only sets window chrome colours.
+    -->
+    <style name="JarvisAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">#FF050D1A</item>
+        <item name="android:statusBarColor">#FF050D1A</item>
+        <item name="android:navigationBarColor">#FF0A1628</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
